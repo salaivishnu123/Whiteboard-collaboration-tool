@@ -46,6 +46,13 @@
         <version>8.0.33</version>
     </dependency>
 
+    <!-- H2 In-Memory Database for local development -->
+    <dependency>
+        <groupId>com.h2database</groupId>
+        <artifactId>h2</artifactId>
+        <scope>runtime</scope>
+    </dependency>
+
     <!-- JWT intentionally omitted for initial REST-only setup -->
 
     <!-- Swagger (optional) -->
